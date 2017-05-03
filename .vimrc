@@ -63,6 +63,8 @@ let g:syntastic_javascript_checkers = ['eslint']
 let g:jsx_ext_required = 0 " Allow JSX in js files
 let g:CommandTAcceptSelectionMap = '<C-t>'
 let g:CommandTAcceptSelectionTabMap = '<CR>'
+set pastetoggle=<F10>
+inoremap <C-v> <F10><C-r>+<F10>
 set number
 syntax on
 colorscheme candycode
